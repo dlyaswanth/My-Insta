@@ -1,0 +1,407 @@
+.nav-wrapper{
+    font-family: 'Times New Roman', cursive;
+}
+.brand-logo{
+  padding: 10px !important;
+  margin-top: -5px;
+}
+a {
+    color: black !important;
+}
+input[type=text]{
+  outline: none !important;
+  border-bottom: none !important;
+ 
+}
+input[type=text]:focus{
+  border-bottom: 1px solid grey !important;
+  box-shadow: 0 1px 0 0 grey !important;
+}
+input[type=password]:focus{
+  border-bottom: 1px solid grey !important;
+  box-shadow: 0 1px 0 0 grey !important;
+}
+.home{
+  color: black !important;
+}
+input[type=password]{
+  outline: none;
+  border-bottom: none !important;
+}
+input[type=password]:focus{
+  border-bottom: 1px solid grey !important;
+  box-shadow: 0 1px 0 0 grey !important;
+}
+input[type=file]:focus{
+  border-bottom: 1px solid grey !important;
+  box-shadow: 0 1px 0 0 grey !important;
+}
+input[type=file]
+{
+  outline: none !important;
+  border-bottom: none !important;
+}
+.search{
+  border-style:solid;
+  border-radius: 15px;
+}
+.cn1{
+    margin-top: 10px !important;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    width:100% !important;
+    border-style: ridge !important;
+    border-color: white !important;
+    color: grey !important;
+    background-color: whitesmoke;
+}
+.profile1{
+  width:150px !important;
+  height:150px !important;
+  border-radius:50% !important;
+  float:left !important;
+  margin-top: 1%;
+}
+.btn{
+  color: black !important;
+  background-color:whitesmoke !important;
+  border-color: grey !important ;
+  border:ridge;
+}
+.btn:hover{
+  background-color: grey !important;
+  color:whitesmoke !important;
+}
+.btlogin{
+  color: black !important;
+  background-color:whitesmoke !important;
+  border-color: grey !important ;
+}
+.btlogin:hover{
+  background-color: grey !important;
+  color:whitesmoke !important;
+}
+.input-field input[type=text]:focus {
+     border-bottom: 1px solid grey !important;
+     box-shadow: 0 1px 0 0 grey !important;
+   }
+   .input-field input[type=password]:focus {
+    border-bottom: 1px solid grey !important;
+    box-shadow: 0 1px 0 0 grey !important;
+  }
+  .input-field input[type=file]:focus {
+    border-bottom: 1px solid grey !important;
+    box-shadow: 0 1px 0 0 grey !important;
+  }
+  .input-field input[type=file]:hover {
+    border-bottom: 1px solid grey !important;
+    box-shadow: 0 1px 0 0 grey !important;
+  }
+  .cv1{
+    color:grey;
+    padding: 10px 17px;
+    text-align: left;
+    border:none;
+  }
+  .btn1{
+    color:grey !important;
+    background-color:lightgrey !important;
+  }
+  .btlogin{
+    padding: 10px 17px;
+    text-align: center;
+    background-color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor:pointer;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
+    border-width: 3px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0003);
+  }
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#toast-container{
+    top:30px !important;
+    right: 20px !important;
+    left: auto !important;
+}
+.auth-card{
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 10px auto;
+  }
+  .item{
+    width: 150px;
+    height: 150px;
+    border-radius: 1%;
+    word-spacing: normal;
+    display: table-column-group !important;
+  }
+  .collection-item{
+    width: 100%;
+  }  
+  .b1{
+    background-color: #b39ddb !important;
+  }
+  .progress{
+    background-color: #6200ea;
+    color: #b39ddb !important;
+  }
+  .progress::-webkit-progress-value { background: blue !important }
+  .signin{
+    margin-top: 2% !important;
+    align: center !important;
+    width:90% !important;
+    color: white;
+    border-color: #ff33cc;
+  }
+  .search { position: relative; }
+.search input { text-indent: 30px;}
+.search .fas { 
+  position: absolute;
+  top: 15px;
+  left: 7px;
+  font-size: 15px;
+}
+.home{
+  color: grey !important;
+  float:center !important;
+}
+.login{
+  color:white;
+}
+.bt{
+  padding: 10px 17px;
+  text-align: center;
+  background-color:blue;
+  color:solid black !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor:pointer;
+  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  -webkit-box-reflect: below 1px linear-gradient(transparent,#0003);
+}
+::placeholder{
+  color: grey !important;
+}
+.card{
+  width:55%;
+  max-width: 500px;
+  float:center !important;
+  margin-left: 25%;
+}
+img{
+  width: 10%;
+  height: 90%;
+  border-radius: 50%;
+}
+.smallimage{
+  margin-top: 5px !important;
+}
+.img1{
+  vertical-align: middle;
+}
+.span1{
+  vertical-align: left;
+}
+.image1{
+  max-width:280px !important;
+  max-height:157px !important;
+  width:100% !important;
+  height: 100% !important;
+}
+.primary-left{
+  float: left !important;
+}
+.edit{
+  font-size: 18px !important;
+}
+.editProfile{
+  text-align: center !important;
+  float: center;
+}
+.home1{
+  color:grey !important;
+}
+.home1:hover{
+  color:#212121 !important;
+}
+.pro{
+  margin:15px 0px 2px 44px !important;
+}
+@media (max-width: 600px) {
+  .card{
+    width:70% !important;
+    margin-left: 15% !important;
+  }
+}
+@media (max-width: 380px) {
+  .in{
+    width:76% !important;
+  }
+  input{
+    width:90% !important;
+    font-size:20px !important;
+  }
+  h2{
+    font-size: 30px;
+  }
+  .card{
+    width:70% !important;
+    margin-left: 3% !important;
+  }
+  p{
+    font-size: 20px !important;
+  }
+.nav-wrapper{
+  float: none !important ;
+}
+.brand-logo{
+  padding:10px !important;
+}
+  .cn1{
+    width:95% !important;
+    padding: none !important;
+    margin: none !important;
+  }
+  i{
+    font-size:22px !important;
+  }
+  .profile1{
+    width:50px !important;
+    height: 50px !important;
+  }
+  .pro{
+    margin:none !important; 
+    }
+  .btlogin{
+    font-size:10px !important;
+  }
+  .new1{
+    font-size: 15px !important;
+  }
+  span{
+    font-size: 20px !important;
+  }
+  .pro1{
+    margin:none !important;
+    margin-top:2% !important ;
+    padding: none !important;
+    font-size: 10px !important
+  }
+  h6{
+    font-size: 10px !important;
+  }
+  .item{
+    width: 60px;
+    height: 60px;
+  }
+  span{
+    font-size: 20px !important;
+  }
+  .card1{
+    width:100% !important;
+    padding: none !important;
+  }
+}
+.edit1{
+  float: center !important;
+}
+@media (max-width: 360px) {
+  li{
+    padding: none !important;
+   
+  }
+  .card1{
+    width:100% !important;
+    padding:none !important;
+  }
+  .cn1{
+    width:95% !important;
+    padding: none !important;
+    margin: none !important;
+  }
+  .card{
+    width:70% !important;
+    margin-left: 3% !important;
+  }
+  h5,h4{
+    font-size:20px !important;
+  }
+  h2{
+    font-size: 25px !important;
+  }
+  i{
+    font-size: 15px !important;
+  }
+  .pro{
+    margin:none !important;
+    margin-left: 30% !important;
+  }
+  .brand-logo{
+    padding: none !important;
+    margin-left: -6% !important;
+    margin-top:2% !important ;
+    margin:none !important;
+  }
+  span{
+    font-size: 20px !important;
+  }
+  input{
+    margin:none !important;
+  }
+}
+@media (max-width: 250px) {
+  .cn1{
+    width:95% !important;
+    padding: none !important;
+    margin: none !important;
+  }
+  .card{
+    width:70% !important;
+    margin-left: 3% !important;
+  }
+  h5,h4{
+    font-size:20px !important;
+  }
+  h2{
+    font-size: 25px !important;
+  }
+  i{
+    font-size: 10px !important;
+  }
+  .pro{
+    margin:none !important;
+    margin-left: 30% !important;
+  }
+  .brand-logo{
+    padding: none !important;
+    margin-left: -6% !important;
+    margin-top:2% !important ;
+  }
+ 
+  input{
+    font-size: 20px !important;
+  }
+  span{
+    font-size: 20px !important;
+  }
+  .card1{
+    width:100% !important;
+    padding:none !important
+  }
+}
